@@ -11,7 +11,7 @@
 ########################################################################################
 
 # DEBUGGING switch
-DEBUG_INFO = True
+DEBUG_INFO = False
 
 # Zu testende Zahl
 num = 31

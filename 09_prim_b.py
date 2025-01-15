@@ -8,18 +8,18 @@ def prime_num(num):
                     print(num,"is not a prime number")
                 if DEBUG_INFO:
                     print(i,"times",num//i,"is",num)
-                break
-        else:
-            if DEBUG_INFO:
-                print(num,"is a prime number")
-            return True
+                return False
+
+        if DEBUG_INFO:
+            print(num,"is a prime number")
+        return True
     else:
         if DEBUG_INFO:
             print(num,"is not a prime number")
         return False
 
 
-max_num = 500
+max_num = 50
 prime_nums = {}
 
 for z in range(0, max_num + 1):
@@ -28,4 +28,4 @@ for z in range(0, max_num + 1):
         print("                Ich bin eine Primzahl: ", z)
         prime_nums[z] = prime_num(z)
 
-print(prime_nums)
+#print(prime_nums)
