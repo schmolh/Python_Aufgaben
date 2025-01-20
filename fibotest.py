@@ -1,3 +1,5 @@
 import Fibo as fb
 
-fb.fib(1000)
+import mfibo
+
+mfibo.fib3(1000)
